@@ -1,0 +1,548 @@
+---
+regions:
+- uswest1
+vms:
+  1.backup-config-mongo:
+    ip_addresses:
+      private: 100.80.50.62
+      public: 52.53.197.12
+    name: backup-config-mongo-3-uswest1-1-newt-s.peernx.net
+    nodeid: ba00517e-537b-11e6-8591-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: backup-config-mongo
+  1.element-logstash:
+    ip_addresses:
+      private: 100.80.11.106
+      public: null
+    name: element-logstash-48-uswest1-1-elcapitan-s.peernx.net
+    nodeid: b66875e8-65ec-11e8-a716-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: elcapitan-s
+    username: ubuntu
+    vm_type: element-logstash
+  1.eventsapi:
+    ip_addresses:
+      private: 100.80.11.145
+      private1: 100.80.10.176
+      public: null
+    name: eventsapi-5-uswest1-1-newt-s.peernx.net
+    nodeid: 4e55d998-ee2e-11e4-9460-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: eventsapi
+  1.nginx-elem:
+    ip_addresses:
+      private: 100.80.12.68
+      private1: 100.80.11.72
+      public: 52.8.4.127
+    name: nginx-elem-5-uswest1-1-newt-s.peernx.net
+    nodeid: 25565220-ee2e-11e4-9460-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: nginx-elem
+  1.nginx-iapi:
+    ip_addresses:
+      private: 100.80.12.173
+      public: null
+    name: nginx-iapi-1-uswest1-1-newt-s.peernx.net
+    nodeid: 02d8713e-7ba3-11e6-b8c5-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: nginx-iapi
+  1.nginx-ilocator:
+    ip_addresses:
+      private: 100.80.12.65
+      public: null
+    name: nginx-ilocator-5-uswest1-1-newt-s.peernx.net
+    nodeid: badfd6f4-6276-11e7-92c5-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: nginx-ilocator
+  1.nginx-lb:
+    ip_addresses:
+      private: 100.80.12.210
+      private1: 100.80.11.112
+      public: 52.8.17.99
+    name: nginx-lb-5-uswest1-1-newt-s.peernx.net
+    nodeid: 34f71eb4-ee2c-11e4-9460-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: nginx-lb
+  1.nginx-locator-elem:
+    ip_addresses:
+      private: 100.80.12.77
+      public: null
+    name: nginx-locator-elem-7-uswest1-1-newt-s.peernx.net
+    nodeid: e1d7af66-6276-11e7-92c5-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: nginx-locator-elem
+  1.nginx-mfg:
+    ip_addresses:
+      private: 100.80.12.175
+      private1: 100.80.11.73
+      public: 52.8.88.218
+    name: nginx-mfg-5-uswest1-1-newt-s.peernx.net
+    nodeid: 61fd1b0c-ee2c-11e4-9460-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: nginx-mfg
+  1.nginx-remote-peernx:
+    ip_addresses:
+      private: 100.80.11.17
+      public: null
+    name: nginx-remote-peernx-5-uswest1-1-newt-s.peernx.net
+    nodeid: 05e68a08-6277-11e7-92c5-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: nginx-remote-peernx
+  1.nginx-vmfg:
+    ip_addresses:
+      private: 100.80.12.206
+      public: 52.52.238.61
+    name: nginx-vmfg-3-uswest1-1-newt-s.peernx.net
+    nodeid: 6aa73c94-ea36-11e6-b55a-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: nginx-vmfg
+  1.profile-1:
+    ip_addresses:
+      private: 100.80.11.171
+      private1: 100.80.10.238
+      public: null
+    name: profile-1-7-uswest1-1-newt-s.peernx.net
+    nodeid: 3a5e6ae8-ee2b-11e4-9460-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: profile-1
+  1.profile-2:
+    ip_addresses:
+      private: 100.80.11.65
+      public: null
+    name: profile-2-50-uswest1-1-elcapitan-s.peernx.net
+    nodeid: f5299490-4aa4-11e9-9267-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: elcapitan-s
+    username: ubuntu
+    vm_type: profile-2
+  1.profile-3:
+    ip_addresses:
+      private: 100.80.11.225
+      private1: 100.80.10.142
+      public: null
+    name: profile-3-6-uswest1-1-newt-s.peernx.net
+    nodeid: 9796b454-ee2b-11e4-9460-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: profile-3
+  1.profile-4:
+    ip_addresses:
+      private: 100.80.11.19
+      private1: 100.80.10.65
+      public: null
+    name: profile-4-5-uswest1-1-newt-s.peernx.net
+    nodeid: c7b2f1de-ee2b-11e4-9460-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: profile-4
+  1.profile-5:
+    ip_addresses:
+      private: 100.80.11.151
+      public: null
+    name: profile-5-44-uswest1-1-elcapitan-s.peernx.net
+    nodeid: 035490ee-65ed-11e8-a716-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: elcapitan-s
+    username: ubuntu
+    vm_type: profile-5
+  1.profile-6:
+    ip_addresses:
+      private: 100.80.11.205
+      public: null
+    name: profile-6-5-uswest1-1-newt-s.peernx.net
+    nodeid: 96622dc2-6276-11e7-92c5-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: profile-6
+  1.profile-7:
+    ip_addresses:
+      private: 100.80.11.193
+      private1: 100.80.10.229
+      public: null
+    name: profile-7-48-uswest1-1-newt-s.peernx.net
+    nodeid: 3a5e6ae8-ee2b-11e4-9460-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: profile-7
+  1.remote-login:
+    ip_addresses:
+      private: 100.80.50.76
+      public: 52.52.177.217
+    name: remote-login-4-uswest1-1-newt-s.peernx.net
+    nodeid: ce581a5c-26c3-11e5-83cb-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: remote-login
+  1.shard-manager:
+    ip_addresses:
+      private: 100.80.11.63
+      public: null
+    name: shard-manager-3-uswest1-1-newt-s.peernx.net
+    nodeid: 84454ca6-537b-11e6-8591-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: shard-manager
+  1.statsapi-nb:
+    ip_addresses:
+      private: 100.80.11.135
+      public: null
+    name: statsapi-nb-3-uswest1-1-newt-s.peernx.net
+    nodeid: cd940294-8a8b-11e5-a107-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: statsapi-nb
+  1.statsapi-sb:
+    ip_addresses:
+      private: 100.80.11.61
+      public: null
+    name: statsapi-sb-13-uswest1-1-newt-s.peernx.net
+    nodeid: 607dd0a8-13df-11e6-8c45-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: statsapi-sb
+  2.element-logstash:
+    ip_addresses:
+      private: 100.80.21.239
+      public: null
+    name: element-logstash-49-uswest1-2-elcapitan-s.peernx.net
+    nodeid: ca072b3a-65ec-11e8-a716-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: elcapitan-s
+    username: ubuntu
+    vm_type: element-logstash
+  2.eventsapi:
+    ip_addresses:
+      private: 100.80.21.209
+      private1: 100.80.20.210
+      public: null
+    name: eventsapi-6-uswest1-2-newt-s.peernx.net
+    nodeid: 6322069e-ee2e-11e4-9460-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: eventsapi
+  2.nginx-elem:
+    ip_addresses:
+      private: 100.80.22.121
+      private1: 100.80.21.155
+      public: 52.8.91.10
+    name: nginx-elem-6-uswest1-2-newt-s.peernx.net
+    nodeid: 399c9fa0-ee2e-11e4-9460-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: nginx-elem
+  2.nginx-iapi:
+    ip_addresses:
+      private: 100.80.22.75
+      public: null
+    name: nginx-iapi-2-uswest1-2-newt-s.peernx.net
+    nodeid: 201543da-7ba3-11e6-b8c5-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: nginx-iapi
+  2.nginx-ilocator:
+    ip_addresses:
+      private: 100.80.22.84
+      public: null
+    name: nginx-ilocator-6-uswest1-2-newt-s.peernx.net
+    nodeid: cf2e9a8c-6276-11e7-92c5-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: nginx-ilocator
+  2.nginx-lb:
+    ip_addresses:
+      private: 100.80.22.232
+      private1: 100.80.21.33
+      public: 52.8.10.31
+    name: nginx-lb-6-uswest1-2-newt-s.peernx.net
+    nodeid: 4bf8ba28-ee2c-11e4-9460-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: nginx-lb
+  2.nginx-locator-elem:
+    ip_addresses:
+      private: 100.80.22.228
+      public: null
+    name: nginx-locator-elem-8-uswest1-2-newt-s.peernx.net
+    nodeid: f505ee0e-6276-11e7-92c5-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: nginx-locator-elem
+  2.nginx-mfg:
+    ip_addresses:
+      private: 100.80.22.237
+      private1: 100.80.21.66
+      public: 52.8.33.172
+    name: nginx-mfg-6-uswest1-2-newt-s.peernx.net
+    nodeid: e8f0600a-ee2d-11e4-9460-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: nginx-mfg
+  2.nginx-remote-peernx:
+    ip_addresses:
+      private: 100.80.21.159
+      public: null
+    name: nginx-remote-peernx-6-uswest1-2-newt-s.peernx.net
+    nodeid: 15404fc0-6277-11e7-92c5-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: nginx-remote-peernx
+  2.nginx-vmfg:
+    ip_addresses:
+      private: 100.80.22.25
+      public: 52.52.243.174
+    name: nginx-vmfg-4-uswest1-2-newt-s.peernx.net
+    nodeid: 8b9f8906-ea36-11e6-b55a-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: nginx-vmfg
+  2.profile-1:
+    ip_addresses:
+      private: 100.80.21.192
+      private1: 100.80.20.82
+      public: null
+    name: profile-1-8-uswest1-2-newt-s.peernx.net
+    nodeid: 5335037e-ee2b-11e4-9460-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: profile-1
+  2.profile-2:
+    ip_addresses:
+      private: 100.80.21.129
+      public: null
+    name: profile-2-51-uswest1-2-elcapitan-s.peernx.net
+    nodeid: 078abace-4aa5-11e9-9267-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: elcapitan-s
+    username: ubuntu
+    vm_type: profile-2
+  2.profile-3:
+    ip_addresses:
+      private: 100.80.21.82
+      private1: 100.80.20.6
+      public: null
+    name: profile-3-7-uswest1-2-newt-s.peernx.net
+    nodeid: b3c547b2-ee2b-11e4-9460-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: profile-3
+  2.profile-4:
+    ip_addresses:
+      private: 100.80.21.228
+      private1: 100.80.20.33
+      public: null
+    name: profile-4-6-uswest1-2-newt-s.peernx.net
+    nodeid: db9f8338-ee2b-11e4-9460-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: profile-4
+  2.profile-5:
+    ip_addresses:
+      private: 100.80.21.131
+      public: null
+    name: profile-5-45-uswest1-2-elcapitan-s.peernx.net
+    nodeid: 17a28cd6-65ed-11e8-a716-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: elcapitan-s
+    username: ubuntu
+    vm_type: profile-5
+  2.profile-6:
+    ip_addresses:
+      private: 100.80.21.174
+      public: null
+    name: profile-6-6-uswest1-2-newt-s.peernx.net
+    nodeid: a8929f90-6276-11e7-92c5-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: profile-6
+  2.profile-7:
+    ip_addresses:
+      private: 100.80.11.25
+      private1: 100.80.10.206
+      public: null
+    name: profile-7-49-uswest1-2-newt-s.peernx.net
+    nodeid: 3a34e6a9-aa3c-11e4-9460-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: profile-7
+  2.shard-manager:
+    ip_addresses:
+      private: 100.80.21.98
+      public: null
+    name: shard-manager-7-uswest1-2-elcapitan-s.peernx.net
+    nodeid: 45198a26-deeb-11e8-b7e9-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: elcapitan-s
+    username: ubuntu
+    vm_type: shard-manager
+  2.statsapi-nb:
+    ip_addresses:
+      private: 100.80.21.186
+      public: null
+    name: statsapi-nb-4-uswest1-2-newt-s.peernx.net
+    nodeid: ecd0e94c-8a8b-11e5-a107-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: statsapi-nb
+  2.statsapi-sb:
+    ip_addresses:
+      private: 100.80.21.19
+      public: null
+    name: statsapi-sb-14-uswest1-2-newt-s.peernx.net
+    nodeid: 8210a66e-13df-11e6-8c45-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: newt-s
+    username: ubuntu
+    vm_type: statsapi-sb
+  3.element-logstash:
+    ip_addresses:
+      private: 100.80.11.163
+      public: null
+    name: element-logstash-50-uswest1-1-elcapitan-s.peernx.net
+    nodeid: dcad7816-65ec-11e8-a716-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: elcapitan-s
+    username: ubuntu
+    vm_type: element-logstash
+  3.profile-2:
+    ip_addresses:
+      private: 100.80.11.136
+      public: null
+    name: profile-2-52-uswest1-1-elcapitan-s.peernx.net
+    nodeid: 1bd2b3c4-4aa5-11e9-9267-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: elcapitan-s
+    username: ubuntu
+    vm_type: profile-2
+  3.profile-5:
+    ip_addresses:
+      private: 100.80.11.127
+      public: null
+    name: profile-5-46-uswest1-1-elcapitan-s.peernx.net
+    nodeid: 2d6c32ec-65ed-11e8-a716-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: elcapitan-s
+    username: ubuntu
+    vm_type: profile-5
+  4.element-logstash:
+    ip_addresses:
+      private: 100.80.21.30
+      public: null
+    name: element-logstash-51-uswest1-2-elcapitan-s.peernx.net
+    nodeid: eca2c532-65ec-11e8-a716-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: elcapitan-s
+    username: ubuntu
+    vm_type: element-logstash
+  4.profile-2:
+    ip_addresses:
+      private: 100.80.21.14
+      public: null
+    name: profile-2-53-uswest1-2-elcapitan-s.peernx.net
+    nodeid: 2f7a094a-4aa5-11e9-9267-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: elcapitan-s
+    username: ubuntu
+    vm_type: profile-2
+  4.profile-5:
+    ip_addresses:
+      private: 100.80.21.199
+      public: null
+    name: profile-5-47-uswest1-2-elcapitan-s.peernx.net
+    nodeid: 3df702e0-65ed-11e8-a716-060dc87ac072
+    provisioned: true
+    region: uswest1
+    theater_name: elcapitan-s
+    username: ubuntu
+    vm_type: profile-5
